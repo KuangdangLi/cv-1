@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  #text-part{
+      word-break: break-all;
+  }
+  #eight-dia{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  *::before {
+    box-sizing: border-box;
+  }
+  #eight-dia::before{
+    content: "";
+    display: block;
+    position: absolute;
+    transform: translate(-50%);
+  }
+  #eight-dia::after{
+    content: "";
+    display: block;
+    position: absolute;
+    transform: translate(-50%);
+  }
+  @media(max-width: 500px){
+    #text-part{
+        height: 50vh;
+        overflow: auto;
+    }
+    #wrapper{
+        height: 50vh;
+    }
+    #eight-dia{
+        position: relative;
+    }
+  }
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
