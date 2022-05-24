@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}#text-part{word-break:break-all}#eight-dia{left:50%;position:fixed;top:20px;transform:translate(-50%)}:after,:before{box-sizing:border-box}#eight-dia:after,#eight-dia:before{content:"";display:block;position:absolute;transform:translate(-50%)}@media(max-width:500px){#text-part{overflow:auto}#text-part,#wrapper{height:50vh}#eight-dia{position:relative}}
+/*# sourceMappingURL=index.2c0a30bc.css.map */
